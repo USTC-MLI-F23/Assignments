@@ -21,5 +21,5 @@
 
 - **实验中遇到的问题请直接通过提issue的方式提出**
   - 如何提问:[GitHub-Issue 正确的提问方式 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/75691927)， 请认真看
-  - issue会在1天内回复(所以请不要做ddl战士)，提issue之前请先搜索issue有无相似问题
+  - issue会尽量在1天内回复(所以请不要做ddl战士)，提issue之前请先搜索issue有无相似问题
   - **欢迎同学们解决别的同学提出的issue, 贡献者可获得平时分加分** (因此github评论请带学号)
