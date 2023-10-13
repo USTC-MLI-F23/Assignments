@@ -20,7 +20,7 @@ class LogisticRegression:
         """The logistic sigmoid function"""
         ################################################################################
         # TODO:                                                                        #
-        # Task1: Implement the sigmoid function.
+        # Implement the sigmoid function.
         ################################################################################
         
         pass  # Remove this line when you write the code
@@ -39,6 +39,8 @@ class LogisticRegression:
         - lr: float, learning rate for gradient descent.
         - tol: float, tolerance to decide convergence of gradient descent.
         - max_iter: int, maximum number of iterations for gradient descent.
+        Returns:
+        - losses: list, a list of loss values at each iteration.        
         """
         # If fit_intercept is True, add an intercept column
         if self.fit_intercept:
@@ -47,9 +49,12 @@ class LogisticRegression:
         # Initialize coefficients
         self.coef_ = np.zeros(X.shape[1])
         
+        # List to store loss values at each iteration
+        losses = []
+
         ################################################################################
         # TODO:                                                                        #
-        # Task2: Implement gradient descent with optional regularization.
+        # Implement gradient descent with optional regularization.
         # 1. Compute the gradient 
         # 2. Apply the update rule
         # 3. Check for convergence
@@ -60,6 +65,7 @@ class LogisticRegression:
         ################################################################################
         #                                 END OF YOUR CODE                             #
         ################################################################################
+        return losses
 
     def predict(self, X):
         """
