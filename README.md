@@ -6,7 +6,7 @@
 
 1. **VS Code**: 我们推荐使用VS Code编辑器，它是一个免费、开源且功能强大的代码编辑器，拥有强大的插件系统，特别适用于Python和Jupyter笔记本。
 
-2. **Miniconda**: Miniconda是一个轻量级的conda，用于管理和分发Python和R语言的软件包及其依赖项。与其它环境管理工具相比，conda更加简洁，且可以很方便地创建和管理多个环境。
+2. **Miniconda**: Miniconda是一个轻量级的conda，用于管理和分发Python的软件包及其依赖项。与其它环境管理工具相比，conda更加简洁，且可以很方便地创建和管理多个环境。
 
 相关的配置步骤参考 [环境配置](tutorial/环境配置.md), 对于不熟悉python的同学，可以参考以下的教程
 * [Python Basic](tutorial/PythonBasics.ipynb)
