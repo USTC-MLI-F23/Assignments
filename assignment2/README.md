@@ -51,4 +51,4 @@ Please name your file as `LAB2_PBXXXXXXXX_NAME.zip`, for wrongly named files, we
 
 Sent an email to ml2023fall@163.com with your zip file before the deadline
 
-Deadline: 2023.11.30 23:59:59
+Deadline: 2023.11.26 23:59:59
