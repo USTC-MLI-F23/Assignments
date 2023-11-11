@@ -47,7 +47,7 @@ Submit a .zip file with the following contents
 
 --Report.pdf
 
-Please name your file as LAB2_PBXXXXXXXX.zip, for wrongly named files, we will not count the mark
+Please name your file as `LAB2_PBXXXXXXXX_NAME.zip`, for wrongly named files, we will not count the mark
 
 Sent an email to ml2023fall@163.com with your zip file before the deadline
 
