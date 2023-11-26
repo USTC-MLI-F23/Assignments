@@ -1,9 +1,7 @@
-# Lab 3
-
-## Density Peak Clustering
+# Machine Learning Lab 3: Density Peak Clustering
 Modified by Jin Zhang & Yuanhao Pu 2023.11.26
 
-### 1. Theory of Clustering
+## 1. Theory of Clustering
 Please refer to the contents of Chpt. 9 "Clustering". 
 
 This experiment primarily implements the algorithm from the paper *"Clustering by fast search and find of density peaks"* 
@@ -13,14 +11,14 @@ This experiment primarily implements the algorithm from the paper *"Clustering b
 
 Each student is recommended to carefully read the entire article before the experiment.
 
-#### 1.1 Algorithm Overview
+### 1.1 Algorithm Overview
 **DPC** integrates the ideas of **k-means** and **DBSCAN**:
 
 - The density is lower at the edges of each cluster, but higher at the center.
 
 - Points in cluster centers are usually far from other points with higher density.
 
-#### 1.2 Algorithm Flow
+### 1.2 Algorithm Flow
 
 - Set **Hyperparameter**: a distance threshold $d_c$
 
@@ -38,23 +36,23 @@ Each student is recommended to carefully read the entire article before the expe
 
   - Draw a decision graph and make manual decisions.
 
-### 2 Experimental Data
+## 2 Experimental Data
 
 This experiment uses three 2D datasets for ease of visualization:
 - Datasets/D31.txt
 - Datasets/R15.txt
 - Datasets/Aggregation.txt
 
-#### Data Format
+### Data Format
 - Each file is a plain text file containing one dataset.
 
 - Each line in the file represents a data example, separated by spaces.
 
 - Notice that setting different hyperparameters to different datasets are acceptable.
 
-### 3 Tasks and Requirements
-#### 3.1 Tasks
-##### 3.1.1 Experimental Introduction
+## 3 Tasks and Requirements
+### 3.1 Tasks
+#### 3.1.1 Experimental Introduction
 
 The overall process of this experiment is to complete the code implementation of the DPC algorithm and conduct visualization experiments on the given dataset. Specifically, students need to perform the following steps:
 - Load the dataset and preprocess the data (if necessary).
@@ -71,12 +69,12 @@ We teaching assistants will evaluate your submitted contents based on the follow
 - Calculated evaluation metric value (DBI).
 - Notice that there is no strict restriction on your experimental results, outputs within a reasonable range is acceptable.
 
-##### 3.1.2 Evaluation Metrics
+#### 3.1.2 Evaluation Metrics
 We require using the **Davis-Bouldin Index** (DBI) as the evaluation metric.
 
 All you need to do is call the `sklearn.metrics.davies_bouldin_score` for calculation.
 
-##### 3.1.3 Data Visualization
+#### 3.1.3 Data Visualization
 
 We require two 2D scatter plots for visualization: a decision graph and a clustering result graph.
 
@@ -107,13 +105,13 @@ plt.show()
 # Note that plt.show() only displays the image in an interactive environment, use plt.savefig(...) as an alternative
 ```
 
-#### 3.2 Requirements
+### 3.2 Requirements
 
 - `sklearn` and other machine learning libraries are forbidden in your manuscript(except for the calling of `sklearn.metrics.davies_bouldin_score`), you are only permitted with `numpy`, `pandas`, `matplotlib`, and Standard Library, you are required to write this project from scratch.
 
 - You are allowed to discuss with other students, but you are not allowed to plagiarize the code, we will use an automatic system to determine the similarity of your programs, and once detected, both of you will get zero marks for this project.
 
-### 4. Submission
+## 4. Submission
 
 Given that we have given all the guidances to complete this experiment in the Task section, we will not provide the `.ipynb` framework again. Therefore, you will need to implement the experiment yourself and write it in **one** `main.ipynb` file. Your code should not be placed in more than one file.
 
