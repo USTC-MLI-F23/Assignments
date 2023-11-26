@@ -1,4 +1,4 @@
-# Lab 4
+# Lab 3
 
 ## Density Peak Clustering
 Modified by Jin Zhang & Yuanhao Pu 2023.11.26
