@@ -48,7 +48,7 @@ This experiment uses three 2-dimensional datasets for ease of visualization:
 
 - Each line in the file represents a data example, separated by spaces.
 
-- Notice that setting different hyperparameters to different datasets are acceptable.
+- Notice that setting different hyperparameters to different datasets is acceptable.
 
 ## 3 Tasks and Requirements
 ### 3.1 Tasks
@@ -63,11 +63,11 @@ The overall process of this experiment is to complete the code implementation of
 
 - Determine clustering results, calculate **evaluation metrics**, and draw **visualization graphs**.
 
-We teaching assistants will evaluate your submitted contents based on the following aspects besides the overall code flow:
+We teaching assistants will evaluate your submitted content based on the following aspects besides the overall code flow:
 - Visualized decision graph.
 - Visualized clustering results.
 - Calculated evaluation metric value (DBI).
-- Notice that there is no strict restriction on your experimental results, outputs within a reasonable range is acceptable.
+- Notice that there is no strict restriction on your experimental results, outputs within a reasonable range are acceptable.
 
 #### 3.1.2 Evaluation Metrics
 We require using the **Davis-Bouldin Index** (DBI) as the evaluation metric.
@@ -107,21 +107,21 @@ plt.show()
 
 ### 3.2 Requirements
 
-- `sklearn` and other machine learning libraries are forbidden in your manuscript(except for the calling of `sklearn.metrics.davies_bouldin_score`), you are only permitted with `numpy`, `pandas`, `matplotlib`, and Standard Library, you are required to write this project from scratch. However, if you cannot complete it from scratch, you can still use ML libraries for comprehension with a portion of points penalty. Please give **explicit statement** in your report to avoid extra deduction of your points.
+- `sklearn` and other machine learning libraries are forbidden in your manuscript(except for the calling of `sklearn.metrics.davies_bouldin_score`), you are only permitted with `numpy`, `pandas`, `matplotlib`, and Standard Library, you are required to write this project from scratch. However, if you cannot complete it from scratch, you can still use ML libraries for comprehension with a portion of the point penalty. Please give **explicit statement** in your report to avoid extra deduction of your points.
 
 - You are allowed to discuss with other students, but you are not allowed to plagiarize the code, we will use an automatic system to determine the similarity of your programs, and once detected, both of you will get zero marks for this project.
 
 ## 4. Submission
 
-Given that we have given all the guidances to complete this experiment in the Task section, we will not provide the `.ipynb` framework again. Therefore, you will need to implement the experiment yourself and write it in **one** `main.ipynb` file. Your code should not be placed in more than one file.
+Given that we have provided all the guidance to complete this experiment in the Task section, we will not provide the `.ipynb` framework again. Therefore, you will need to implement the experiment yourself and write it in **one** `main.ipynb` file. Your code should not be placed in more than one file.
 
 Your report should include but not be limited to the following contents:
 
 - Experiment purpose. (Optional)
 - Brief explanation of the experimental principle. (Optional)
-- Experimental steps. This part may include dataloading, model training, tuning parameters, obtaining how many sets of results, summarizing the contents in each code block, etc.
-- Experimental results. Summarize, compare and visualize your output.
-- Experimental analysis. Analyze reasons for your results. (Optional)
+- Experimental steps. This part may include data-loading, model training, tuning parameters, obtaining how many sets of results, summarizing the contents in each code block, etc.
+- Experimental results. Summarize, compare, and visualize your output.
+- Experimental analysis. Analyze the reasons for your results. (Optional)
 
 Submit a .zip file containing the following:
 - main.ipynb
