@@ -1,5 +1,5 @@
 # Machine Learning Lab 3: Density Peak Clustering
-Modified by Jin Zhang & Yuanhao Pu 2023.11.26
+Modified by Yuanhao Pu 2023.11.26
 
 ## 1. Theory of Clustering
 Please refer to the contents of Chpt. 9 "Clustering". 
