@@ -107,7 +107,7 @@ plt.show()
 
 ### 3.2 Requirements
 
-- `sklearn` and other machine learning libraries are forbidden in your manuscript(except for the calling of `sklearn.metrics.davies_bouldin_score`), you are only permitted with `numpy`, `pandas`, `matplotlib`, and Standard Library, you are required to write this project from scratch.
+- `sklearn` and other machine learning libraries are forbidden in your manuscript(except for the calling of `sklearn.metrics.davies_bouldin_score`), you are only permitted with `numpy`, `pandas`, `matplotlib`, and Standard Library, you are required to write this project from scratch. However, if you cannot complete it from scratch, you can still use ML libraries for comprehension with a portion of points penalty. Please give **explicit statement** in your report to avoid extra deduction of your points.
 
 - You are allowed to discuss with other students, but you are not allowed to plagiarize the code, we will use an automatic system to determine the similarity of your programs, and once detected, both of you will get zero marks for this project.
 
