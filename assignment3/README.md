@@ -38,7 +38,7 @@ Each student is recommended to carefully read the entire article before the expe
 
 ## 2 Experimental Data
 
-This experiment uses three 2D datasets for ease of visualization: (Awaiting uploading...)
+This experiment uses three 2-Dimensional datasets for ease of visualization: (Awaiting uploading...)
 - Datasets/D31.txt
 - Datasets/R15.txt
 - Datasets/Aggregation.txt
