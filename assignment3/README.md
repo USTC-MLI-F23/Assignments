@@ -24,9 +24,11 @@ Each student is recommended to carefully read the entire article before the expe
 
 - For each data point $i$, compute two quantities:
 
-  - Local density: $\rho_i=\sum_j\chi(d_{ij}−d_c)$, where $\chi(x)=1$ if $x<0$ and $\chi(x)=0$ otherwise.（Also，you can try other types of Kernel functions)
+  - Local density: $\rho_i=\sum_j\chi(d_{ij}−d_c)$, where $\chi(x)=1$ if $x<0$ and $\chi(x)=0$ otherwise.
 
   - Distance from points of higher density: $\delta_i=\underset{j:\rho_j>\rho_i}{\min}d_{ij}$. For the point with the highest density, take $\delta_i=\max_jd_{ij}$.
+ 
+  - Also, you can try other types of Kernel Functions
 
 - Identify the cluster centers and out-of-distribution (OOD) points:
 
