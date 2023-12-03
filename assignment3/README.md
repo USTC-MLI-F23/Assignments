@@ -27,6 +27,8 @@ Each student is recommended to carefully read the entire article before the expe
   - Local density: $\rho_i=\sum_j\chi(d_{ij}−d_c)$, where $\chi(x)=1$ if $x<0$ and $\chi(x)=0$ otherwise.
 
   - Distance from points of higher density: $\delta_i=\underset{j:\rho_j>\rho_i}{\min}d_{ij}$. For the point with the highest density, take $\delta_i=\max_jd_{ij}$.
+ 
+  - Also, you can try other types of Kernel Functions
 
 - Identify the cluster centers and out-of-distribution (OOD) points:
 
@@ -78,7 +80,7 @@ All you need to do is call the `sklearn.metrics.davies_bouldin_score` for calcul
 
 We require two 2D scatter plots for visualization: a decision graph and a clustering result graph.
 
-We recommend `pyplot` as your visualization library (or you can choose other tools reasonable).
+We recommend `pyplot` as your visualization library (or you can choose other reasonable tools).
 
 Example：
 
@@ -113,7 +115,7 @@ plt.show()
 
 ## 4. Submission
 
-Given that we have provided all the guidance to complete this experiment in the Task section, we will not provide the `.ipynb` framework again. Therefore, you will need to implement the experiment yourself and write it in **one** `main.ipynb` file. Your code should not be placed in more than one file.
+Given that we have provided all the guidance to complete this experiment in the Task section, we will not provide the `.ipynb` framework again. Therefore, you should implement the experiment yourself and write it in **one** `main.ipynb` file. Your code should not be placed in more than one file.
 
 Your report should include but not be limited to the following contents:
 
@@ -127,7 +129,7 @@ Submit a .zip file containing the following:
 - main.ipynb
 - Report.pdf
 
-Note that you do not need to submit **any files**(which would potentially be original data or visualisation images) other than the experiment code and the experiment report. You should add all visualization results into the report.
+Note that you do not need to submit **any files**(which would potentially be original data or visualization images) other than the experiment code and report. You should add all visualization results to the report.
 
 Please name your file as `LAB3_PBXXXXXXXX_中文名.zip`, for wrongly named files, we will not count the mark.
 
