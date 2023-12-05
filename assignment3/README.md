@@ -1,6 +1,9 @@
 # Machine Learning Lab 3: Density Peak Clustering
 Modified by Yuanhao Pu 2023.11.26
 
+## Update:
+- 如使用该算法得到的聚类结果达不到理想的程度，可尝试在计算局部密度时使用核函数提升聚类算法的性能。
+- 
 ## 1. Theory of Clustering
 Please refer to the contents of Chpt. 9 "Clustering". 
 
