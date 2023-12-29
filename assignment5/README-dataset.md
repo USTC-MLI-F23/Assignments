@@ -1,9 +1,9 @@
 ## 检测社交媒体虚假账户
 
-数据集有三个文件
+数据集中有三个文件
 - train.json
 - test.json
-- rawtest.json
+- rawtest.json: 不要修改这个文件, 用来检测test.json的格式是否规范
 
 目标: 预测test.json中的label为 "human" / "bot"
 
